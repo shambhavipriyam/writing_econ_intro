@@ -728,7 +728,7 @@ class: inverse, center, middle
 # Next lecture: Deep dive into Git(Hub).
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
-#```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
+```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
 infile = list.files(pattern = '.html')
 pagedown::chrome_print(input = infile, timeout = 100)
-#```
+```
