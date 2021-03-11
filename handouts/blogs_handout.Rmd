@@ -1,0 +1,58 @@
+---
+title: "Blogs to Follow"
+subtitle: "Don't limit learning to the classroom"
+author: "Introductory Workshop on Writing in Economics"
+date: "St. Xavier's College, Mumbai"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+There are a lot of people out there who are willing to teach you economics. They are also learning and thinking about concepts as they write. Learn from them. 
+
+Here's is a list of interesting blogs. You don't need to like all of them, pick some that you find most attractive and use them to learn economics and also how to write for the medium. They are broken down in broad categories, but there is a lot of overlap.
+
+### General fun things 
+- <https://timharford.com/articles/deareconomist/>
+- <https://www.reddit.com/r/Economics/>
+- <https://www.bytesizestory.com/post/play-stupid-games-win-stupid-prizes>
+- <https://freakonomics.com/category/freakonomics-blog/> _not updated frequently_
+
+
+### Indian blogs 
+- <https://randomvariable.cc/farmer-bills-india-step-towards-free-market-economics-in-agriculture/>
+- <https://economictranscript.wordpress.com/>
+- <https://mostlyeconomics.wordpress.com/>
+
+
+### Economics learning and teaching 
+- <https://dolanecon.blogspot.com/>
+- <https://robertvienneau.blogspot.com/2021/02/neoclassical-economists-being-wrong.html>
+
+
+### Book reviews 
+- <http://www.enlightenmenteconomics.com/blog/>
+
+### Commentary 
+- <https://johnhcochrane.blogspot.com/> 
+- <https://www.nakedcapitalism.com/> 
+- <https://marginalrevolution.com/>
+- <https://mainlymacro.blogspot.com/> 
+- <https://gregmankiw.blogspot.com/> 
+
+### Commentary + Academic research
+- <https://chrisblattman.com/> 
+- <https://voxeu.org/> 
+- <http://econbrowser.com/>
+- <https://conversableeconomist.blogspot.com/>
+- <https://blog.supplysideliberal.com/>
+- <https://macromarketmusings.blogspot.com/>
+
+### Big publishers
+- <https://www.thestreet.com/economonitor/>
+- <https://blogs.wsj.com/economics/>
+- <https://www.econlib.org/econlog/>

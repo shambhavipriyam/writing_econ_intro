@@ -1,0 +1,59 @@
+---
+title: "Guidelines/Rules"
+subtitle: "Some general advice on rules and whether to follow them"
+author: "Introductory Workshop on Writing in Economics"
+date: "St. Xavier's College, Mumbai"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## To _rules_ or not to _rules_ 
+
+You have probably spent a long time in grammar classes in school where the teacher told your all about how to speak and write the English language. It is very important to know the rules of how the language works, but if rules were all it took then robots would write better love poems than Shakespeare. This is a possibility in the near future, but we are not there yet.
+
+If you browse the internet or a grammar text book (geez, does anyone still have one?) you will find plenty of examples of what not to do when writing: "avoid adverbs", "don't use exclamation points", "use complete sentences". But now and then breaking these rules makes sense becuase our forms of communication are also changing. Keep in mind, *to break rules you have to first know the rules*. 
+
+Below are some rules as laid out by people who really know their craft. The rules are not replacements to essential grammar, they are there to tell you how to play with them. Learn them, exercise them, master them, and only then you may decide to break them. 
+
+### Mark Twain
+Part of his response to the fiction of James Fenimore Cooper
+
+> An author should:
+
+> 1. _Say_ what he is proposing to say, not merely come near it.
+> 2. Use the right word, not its second cousin.
+> 3. Eschew surplusage.
+> 4. Not omit necessary details.
+> 5. Avoid slovenliness of form.
+> 6. Use good grammar.
+> 7. Employ a simple, straightforward style.
+
+
+### George Orwell 
+Part of the essay "Politics and the English Language"
+
+> 1. Never use a metaphor, simile, or other figure of speech which you are used to seeing in print.
+> 2. Never use a long word where a short one will do.
+> 3. If it is possible to cut a word out, always cut it out.
+> 4. Never use the passive where you can use the active.
+> 5. Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.
+> 6. Break any of these rules sooner than say anything outright barbarous.
+
+
+
+### Neil Gaiman 
+From [The Guardian](https://www.theguardian.com/books/2010/feb/20/ten-rules-for-writing-fiction-part-one)
+
+> 1. Write
+> 2. Put one word after another. Find the right word, put it down.
+> 3. Finish what you’re writing. Whatever you have to do to finish it, finish it.
+> 4. Put it aside. Read it pretending you’ve never read it before. Show it to friends whose opinion you respect and who like the kind of thing that this is.
+> 5. Remember: when people tell you something’s wrong or doesn’t work for them, they are almost always right. When they tell you exactly what they think is wrong and how to fix it, they are almost always wrong.
+> 6. Fix it. Remember that, sooner or later, before it ever reaches perfection, you will have to let it go and move on and start to write the next thing. Perfection is like chasing the horizon. Keep moving.
+> 7. Laugh at your own jokes.
+> 8. The main rule of writing is that if you do it with enough assurance and confidence, you’re allowed to do whatever you like. (That may be a rule for life as well as for writing. But it’s definitely true for writing.) So write your story as it needs to be written. Write it honestly, and tell it as best you can. I’m not sure that there are any other rules. Not ones that matter.

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Writing in Economics</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Shambhavi Priyam" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <script src="libs/fabric/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30}) })</script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Writing in Economics
+## Introductory Workshop
+### Shambhavi Priyam
+### Max Planck Institute for Research on Collective Goods
+
+---
+
+
+&lt;style type="text/css"&gt;
+# CSS for including pauses in printed PDF output (see bottom of lecture)
+@media print {
+  .has-continuation {
+    display: block !important;
+  }
+}
+&lt;/style&gt;
+
+
+
+
+
+
+# Introductions
+
+### Workshop
+
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="rfa" style="height:0.75em;fill:currentColor;position:relative;"&gt;&lt;path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"/&gt;&lt;/svg&gt; https://github.com/shambhavipriyam/writing_econ_intro
+
+All the handouts, notes, and presentations are there.
+
+--
+
+### Me
+
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="rfa" style="height:0.75em;fill:currentColor;position:relative;"&gt;&lt;path d="M436 160c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-20V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h320c26.5 0 48-21.5 48-48v-48h20c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-20v-64h20c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-20v-64h20zm-228-32c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H118.4C106 384 96 375.4 96 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h5c37.1 0 67.2 25.8 67.2 57.6v19.2z"/&gt;&lt;/svg&gt; Shambhavi Priyam
+
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="rfa" style="height:0.75em;fill:currentColor;position:relative;"&gt;&lt;path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/&gt;&lt;/svg&gt; [priyam@coll.mpg.de](mailto:priyam@coll.mpg.de)
+
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="rfa" style="height:0.75em;fill:currentColor;position:relative;"&gt;&lt;path d="M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z"/&gt;&lt;/svg&gt; PhD Research Fellow; St. Xavier's College alumna 
+
+---
+
+# Economics Department 2014
+
+&lt;div align="center"&gt;
+&lt;img src="pics/eco_dept.jpg" height=450px&gt;
+&lt;/div&gt;
+
+---
+
+# Why this workshop?
+
+- Writing is the trade of students of economics. You cannot get away from it.
+  - Policy reports, strategy plans, columns,...
+  - Journal articles, grant proposals, letters, lesson plans...
+  
+- Non-economists find it difficult to understand us.
+
+--
+&gt; *"That's not writing: that's typing."*~ E. Hemingway
+
+
+--
+- You will be expected to write term papers and reports but will not be taught writing as part of your curriculum. 
+
+- Writing is as important as statistics and maths. 
+
+---
+
+# What are we doing today? 
+
+1. Gyan 
+
+2. Practical stuff 
+
+3. Exercise!
+
+4. Now what?
+
+
+---
+
+class: inverse, center, middle
+
+# Gyan
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=796px&gt;&lt;/html&gt;
+
+---
+
+# Gyan No. 1: Be clear
+
+##**Attention is a scarce resource**
+
+- If the reader thinks what you write is unclear, then it is, by definition.
+
+- Readers should not stop and solve a puzzle in every sentence. If you ask a reader to stop, it is hard for them to start again. 
+
+_Would you doomscroll as much if it was harder to do?_
+
+--
+
+- Read what you write after a week and you will be able to pinpoint where things are hard to follow.
+
+---
+# Gyan No. 2: Be true 
+
+Choose a subject that meets the needs and also makes your _tummy tingle!_
+
+--
+### Economic Poetry
+
+Rhetotic: the art of discovering warrantable beliefs and improving those beliefs in shared discources (Booth 1974)
+
+  - Invention: framing of arguments worth listening to  
+  - Arrangement: putting down on paper what you want to say
+  - Style: how you actually want to say those things 
+  
+---
+# Gyan No. 3: Practice, practice, practice
+
+- The problem with reading great writing -&gt; your standards are too high and you don't meet them yourself. 
+
+- Writing well is not something you are born with, you can work to get better. 
+
+&lt;div align="center"&gt;
+&lt;figure&gt;
+&lt;img src="pics/practice.png" height=400px&gt;
+&lt;figcaption&gt;&lt;a href="https://www.instagram.com/p/CK_w7wjsqmW/"&gt;(Source)&lt;/a&gt;&lt;/figcaption&gt;
+&lt;figure&gt;
+&lt;/div&gt;
+
+---
+class: inverse, center, middle
+name: started
+
+# Practical Stuff
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=796px&gt;&lt;/html&gt;
+
+---
+
+# Practical stuff - Tools 
+
+### Reading 
+- reference management tools (ex. [Zotero](https://www.zotero.org/), [Mendeley](https://www.mendeley.com/)).
+
+### Writing
+- a tiny pocketbook and pen, word processing (ex. Overleaf, Markdown, MS Word, Google Docs).
+
+### Data 
+- processing and analysis (ex. R, Stata, Python), version control (Git).
+
+### Publishing
+- academic journals, established blogs like Econ Declassified ([see handout](https://shambhavipriyam.github.io/writing_econ_intro/handouts/blogs_handout.pdf) for list of others), self-publishing (ex. Medium, Wordpress, Github Pages), social media (ex. Twitter, Instagram, YouTube).
+
+---
+# Practical stuff contd.
+
+#### Set the stage. It's all a performance! 
+
+Everything you write (which includes how you present your work and how you speak about your work) is a performance. You will have to make presentations in _any_ job you go to.  
+--
+
+- Read things out loud 
+&gt; "Saying it out loud will help. If people wrote more the way they spoke, their writing would have more vigor (if they spoke more the way they wrote their speaking would have more precision)"
+
+--
+- Choose your tone
+&gt; "You can't just "be yourself" though you will probably do a more persuasive job if the implied author in your writing is similar to yourself."
+
+---
+# Practical stuff contd.
+
+#### Keep it simple, silly (sorry, this is gyan again!)
+
+--
+- If there is a simpler way to say it, say it that way 
+&gt; "Impenetrable theoretical utterances have prestige in economics. That's sad, becuase no scientific advance can be expected from such games on a blackboard."
+
+--
+- Don't use too many words to say the same thing if fewer words will suffice 
+&gt;_"Indifferent harvests of 1815 and calamitous volume deficiencies of 1816"_ 
+-- both mean the same thing
+
+--
+- When revising, add more (active) verbs and delete more adjectives and adverbs. 
+--
+The trick is to circle as many "is" as you see, and try to replace them. 
+&gt; "There is a data reanalysis need" --&gt; "We must reanalyze our data"
+&gt; Gamestop stock prices went up _quickly_ --&gt; Gamestop stock prices _skyrocketed_.
+
+---
+
+# A quick aside on data
+
+&gt; _"If you torture the data long enough, it will confess to anything"_ ~ Ronald Coase
+
+Data is like your friend who is always helpful, but gullible and can be misued by anyone.
+
+#### Don't manipulate your friends or your data.
+
+--
+- Watch out for [spurious correlations](http://www.tylervigen.com/spurious-correlations) 
+- It is easy to [lie with your graphs](https://www.datasciencejunction.com/2019/01/how-to-be-cautious-about-misleading.html)
+- Look at [all the numbers](https://venngage.com/blog/misleading-graphs/) 
+
+&lt;div align="center"&gt;
+&lt;figure&gt;
+&lt;img src="pics/data.png" height=280px&gt;
+&lt;figcaption&gt;In the wild you may need more than MS Excel&lt;/figcaption&gt;
+&lt;figure&gt;
+&lt;/div&gt;
+
+---
+
+# Back to practical stuff
+
+- Using too many "linking" words will make your writing sound clumsy 
+
+&gt; _Yet_, you will remember that all the English teachers spoke a little like this. _Indeed, at times_ professors feel the need to talk this way, but this an attempt to _not only_ mask that they may not be aware of what they are talking of, _but also_ to confuse you so you don't ask more questions. _Therefore_, try to avoid this trait, if you can. _Keep in mind_, the effort it takes to do this is remarkable. _But on the other hand_, the reader is constanly being pushed around by the author which can get tiring.
+
+
+--
+- Keep sentences short 
+
+--
+- _Avoid words bad writers love_ ([see handout](https://shambhavipriyam.github.io/writing_econ_intro/handouts/ch26_McCloskey_Economical_Writing_handout.pdf))
+
+---
+class: inverse, center, middle
+name: started
+
+# Exercise!
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=796px&gt;&lt;/html&gt;
+
+---
+The interdependence of nations has vastly increased since the previous century, resulting in a
+reachable, diverse yet competitive global market space. Given such an environment, the mitigation or reduction of barriers has become a primary concern for international trade. Trade liberalization promotes the idea of free trade amongst countries. But trade liberalisation can prove to be advantageous or disadvantageous for individual economies, depending on the state of its economic performance.
+
+
+---
+class: inverse, center, middle
+name: started
+
+# Now what?
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=796px&gt;&lt;/html&gt;
+
+---
+
+# Now what?
+
+There are many outlets for you to write and **read** economics.
+
+Be up to date on what is happening
+
+--
+### Academic writing 
+- Economics Journals - [rankings](https://www.scimagojr.com/journalrank.php?category=2002) and why they may be [problematic](https://icelab.se/4754-2/#:~:text=There%20is%20no%20doubt%20that,ranking%20system%20is%20not%20transparent)
+- Interdisciplinary science journals 
+
+
+### Non-academic writing 
+- Op-eds
+- News 
+- [Blogs](https://shambhavipriyam.github.io/writing_econ_intro/handouts/blogs_handout.pdf)
+- Twitter - [summary of research](https://twitter.com/LukasKiessling/status/1272876844849782784), [academic chatter](https://twitter.com/search?q=%23EconTwitter&amp;src=typeahead_click), and [random fun things](https://twitter.com/doggonomics)
+- YouTube content - [learn by creating](https://www.youtube.com/channel/UCV7OupzIpYe9oIn_QSlyfJw), how I passed my [Economic History](https://www.youtube.com/watch?v=d0nERTFo-Sk&amp;t=380s) class
+- Other creative ways - on [post-it](https://twitter.com/1969ajo/status/1272566169954893824), [memes](https://www.instagram.com/econ_memess/)
+
+---
+
+# Final thoughts 
+
+&lt;div align="center"&gt;
+&lt;figure&gt;
+&lt;img src="pics/rules.jpg" height=400px&gt;
+&lt;figcaption&gt;&lt;a href="https://shambhavipriyam.github.io/writing_econ_intro/handouts/guidelines_handout.pdf"&gt;(Are there any rules?)&lt;/a&gt;&lt;/figcaption&gt;
+&lt;figure&gt;
+&lt;/div&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
