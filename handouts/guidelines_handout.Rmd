@@ -14,11 +14,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## To _rules_ or not to _rules_ 
 
-You have probably spent a long time in grammar classes in school where the teacher told your all about how to speak and write the English language. It is very important to know the rules of how the language works, but if rules were all it took then robots would write better love poems than Shakespeare. This is a possibility in the near future, but we are not there yet.
+You must have spent a long hours in grammar classes in school listening to the teacher on how to speak and write the English language. It is very important to know the rules of how the language works, but if rules were all it took then robots would write better love poems than Shakespeare. This is a possibility in the near future, but we are not there yet. [[LINK]( https://yisela.medium.com/computer-generated-poetry-will-knock-your-socks-off-763c815a1b52)]
 
-If you browse the internet or a grammar text book (geez, does anyone still have one?) you will find plenty of examples of what not to do when writing: "avoid adverbs", "don't use exclamation points", "use complete sentences". But now and then breaking these rules makes sense becuase our forms of communication are also changing. Keep in mind, *to break rules you have to first know the rules*. 
+If you browse the internet or a grammar text book (geez, does anyone still have one?) you will find plenty of examples of what not to do when writing: "avoid adverbs", "don't use exclamation points", "use complete sentences". But now and then breaking these rules makes sense because our modes of communication are also changing. Keep in mind, *to break the rules you have to first know the rules*. 
 
 Below are some rules as laid out by people who really know their craft. The rules are not replacements to essential grammar, they are there to tell you how to play with them. Learn them, exercise them, master them, and only then you may decide to break them. 
+
 
 ### Mark Twain
 Part of his response to the fiction of James Fenimore Cooper

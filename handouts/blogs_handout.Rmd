@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 There are a lot of people out there who are willing to teach you economics. They are also learning and thinking about concepts as they write. Learn from them. 
 
-Here's is a list of interesting blogs. You don't need to like all of them, pick some that you find most attractive and use them to learn economics and also how to write for the medium. They are broken down in broad categories, but there is a lot of overlap.
+Here's is a list of interesting blogs. You don't need to like all of them, pick some that you find most attractive. Use them to learn economics and also how to write for the medium. They are broken down in broad categories, but there is a lot of overlap.
 
 ### General fun things 
 - <https://timharford.com/articles/deareconomist/>
