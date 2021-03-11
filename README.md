@@ -5,4 +5,4 @@ Date: March 12, 2021
 
 Here we can find all the files, notes, and handouts that are used for this workshop. 
 
-Lecture notes [LINK]
+Lecture notes [LINK](https://shambhavipriyam.github.io/writing_econ_intro/notes/workshop_slides.html)
