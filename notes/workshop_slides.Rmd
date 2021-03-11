@@ -175,7 +175,7 @@ name: started
 - processing and analysis (ex. R, Stata, Python), version control (Git).
 
 ### Publishing
-- academic journals, established blogs like Econ Declassified ([see handout](https://shambhavipriyam.github.io/writing_econ_intro/handouts/blogs_handout.pdf) for list of others), self-publishing (ex. Medium, Wordpress, Github Pages), social media (ex. Twitter, Instagram, YouTube).
+- academic journals, established blogs like Econ Declassified ([see handout](https://shambhavipriyam.github.io/writing_econ_intro/handouts/blogs_handout.html) for list of others), self-publishing (ex. Medium, Wordpress, Github Pages), social media (ex. Twitter, Instagram, YouTube).
 
 ---
 # Practical stuff contd.
@@ -248,7 +248,7 @@ Data is like your friend who is always helpful, but gullible and can be misued b
 - Keep sentences short 
 
 --
-- _Avoid words bad writers love_ ([see handout](https://shambhavipriyam.github.io/writing_econ_intro/handouts/ch26_McCloskey_Economical_Writing_handout.pdf))
+- _Avoid words that bad writers love_ ([see handout](https://shambhavipriyam.github.io/writing_econ_intro/handouts/ch26_McCloskey_Economical_Writing_handout.pdf))
 
 ---
 class: inverse, center, middle
@@ -262,6 +262,8 @@ name: started
 The interdependence of nations has vastly increased since the previous century, resulting in a
 reachable, diverse yet competitive global market space. Given such an environment, the mitigation or reduction of barriers has become a primary concern for international trade. Trade liberalization promotes the idea of free trade amongst countries. But trade liberalisation can prove to be advantageous or disadvantageous for individual economies, depending on the state of its economic performance.
 
+--
+Handout-[LINK](https://shambhavipriyam.github.io/writing_econ_intro/handouts/economicalwriting_handout.pdf)
 
 ---
 class: inverse, center, middle
