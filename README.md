@@ -1,6 +1,6 @@
 # Introduction to Writing in Economics
 
-This repo is created for the Workshop on Introduction to Writing in Economics for the students of St. Xavier's College, Mumbai 
+This repo is created for the Workshop on Introduction to Writing in Economics for the undergraduate students of St. Xavier's College, Mumbai 
 
 
 Date: March 12, 2021 
