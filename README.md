@@ -1,4 +1,4 @@
-# Introduction to Writing in Econ
+# Introduction to Writing in Economics
 
 This repo is created for the Workshop on Introduction to Writing in Economics for the students of St. Xavier's College, Mumbai 
 
