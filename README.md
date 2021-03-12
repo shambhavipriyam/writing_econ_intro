@@ -17,4 +17,5 @@ Here you can find all the slides, notes, and handouts that are used for this wor
 
 5. Handout 4: Guidelines/Rules [LINK](https://shambhavipriyam.github.io/writing_econ_intro/handouts/guidelines_handout.pdf)
 
-6. Exercise document: _will be updated after the workshop_
+6. Exercise document: [LINK to Google Doc workspace](https://docs.google.com/document/d/1fceAiHvP4yBhaVUCYCR0Dq4c0ecdyWJwpZQvexu27DA/edit?usp=sharing ![image](https://user-images.githubusercontent.com/72828165/110964298-55cdb180-8353-11eb-9337-85602fb6d5c7.png))
+_Do continue working on the exercise and refer back to this document for comments._
