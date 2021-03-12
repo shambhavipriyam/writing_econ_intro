@@ -20,3 +20,17 @@ Here you can find all the slides, notes, and handouts that are used for this wor
 6. Exercise document: [LINK to Google Doc workspace](https://docs.google.com/document/d/1fceAiHvP4yBhaVUCYCR0Dq4c0ecdyWJwpZQvexu27DA/edit?usp=sharing)
 
 _Do continue working on the exercise and refer back to this document for comments. After March 15th, the final document will be closed for interaction and comments and be uploaded here for reference._
+
+## Discussion during the workshop 
+1. To learn more about data analysis software you can refer to the following: 
+- [Udemy course](https://www.udemy.com/course/learn-r-programming/)
+- [Wolfgang Viechtbauer](http://www.wvbauer.com/doku.php/course_oor) - This is where I learned it. He also has [weekly Twitch streams with R](http://www.wvbauer.com/doku.php/live_streams)
+- [freeCodeCamp Intro to R](https://www.youtube.com/watch?v=_V8eKsto3Ug)
+
+## How to get in touch
+If you have any questions or comments, please feel free to get in touch. 
+
+email - priyam@coll.mpg.de
+[Twitter](https://twitter.com/What_a_Sham)
+
+If you find errors in any files in this repo, please fork it and send a pull request. 
