@@ -19,7 +19,7 @@ Here you can find all the slides, notes, and handouts that are used for this wor
 
 6. Exercise document: [LINK to Google Doc workspace](https://docs.google.com/document/d/1fceAiHvP4yBhaVUCYCR0Dq4c0ecdyWJwpZQvexu27DA/edit?usp=sharing)
 
-_Do continue working on the exercise and refer back to this document for comments. After March 15th, the final document will be closed for interaction and comments and be uploaded here for reference._
+_The final document has been closed for interaction on March 17th. The above link can be used for reference._
 
 ## Discussion during the workshop 
 1. To learn more about data analysis software you can refer to the following: 
